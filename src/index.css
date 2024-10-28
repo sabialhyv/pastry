@@ -6,3 +6,26 @@
 
 /* Home.jsx */
 
+/* Navbar css */
+
+nav{
+  display: flex;
+  padding: 10px 50px ;
+  background-color: yellow;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+}
+
+nav img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
