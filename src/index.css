@@ -1,3 +1,4 @@
+ 
 * {
   margin: 0;
   padding: 0;
@@ -8,11 +9,13 @@
 
 .home {
   width: 100%;
-  padding: 120px 0;
+  height: 700px;
+  padding: 150px 0;
   text-align: center;
-  background-color: bisque;
-
-
+  background-image: url('./assets/images/Home.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
