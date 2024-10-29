@@ -10,7 +10,7 @@
 
 nav{
   display: flex;
-  padding: 10px 50px ;
+  padding: 10px 120px ;
   background-color: yellow;
   justify-content: space-between;
   align-items: center;
@@ -25,7 +25,8 @@ nav{
 }
 
 nav img{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  object-position: center;
 }
