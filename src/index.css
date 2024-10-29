@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,27 +6,65 @@
 
 /* Home.jsx */
 
+.home {
+  width: 100%;
+  padding: 120px 0;
+  text-align: center;
+  background-color: bisque;
+
+
+}
+
+
+
+
+
 /* Navbar css */
 
-nav{
+nav {
+  width: 100%;
   display: flex;
-  padding: 10px 120px ;
-  background-color: yellow;
+  padding: 10px 120px;
+  background-color: whitesmoke;
+  position: fixed;
+  z-index: 111;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   justify-content: space-between;
   align-items: center;
 }
 
-.navbar{
+nav img {
+  width: 130px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.navbar {
   display: flex;
   gap: 20px;
   align-items: center;
   padding: 10px;
-  color: #fff;
 }
 
-nav img{
-  width: 90px;
-  height: 90px;
-  object-fit: cover;
-  object-position: center;
+.navbar .link-styles {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.navbar .link-styles:hover {
+  color: #F07471;
+}
+
+.contact-link {
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: white !important;
+  background-color: #F07471;
+}
+
+.contact-link:hover {
+  color: black !important;
+  background-color: white !important;
 }
