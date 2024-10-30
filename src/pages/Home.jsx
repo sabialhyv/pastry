@@ -1,6 +1,4 @@
 import React from 'react'
-import brand from '../assets/images/brand.png'
-
 function Home() {
   return (
     <>
