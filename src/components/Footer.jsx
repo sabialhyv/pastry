@@ -10,13 +10,15 @@ function Footer() {
                 <div className='flex flex-col'>
                     <p className='max-w-[700px] text-5xl tracking-[10px]'>we are here <span className='text-yellow-400'>to bake</span> happy you!</p>
                     <div className='flex justify-between mt-10'>
-                        <p>Follow us</p>
-                        <img src={video}/>
-                        <div className="social-media flex justify-between items-center gap-3">
-                            <a className='bg-red-300 rounded-full p-3' href="#"><FaFacebook className='text-2xl text-white' /></a>
-                            <a className='bg-red-300 rounded-full p-3' href="#"><FaPinterest className='text-2xl text-white' /></a>
-                            <a className='bg-red-300 rounded-full p-3' href="#"><AiFillInstagram className='text-2xl text-white' /></a>
-                            <a className='bg-red-300 rounded-full p-3' href="#"><FaYoutube className='text-2xl text-white' /></a>
+                        <div className='flex flex-col items-center justify-between'>
+                            <p className='text-2xl'> Follow us</p>
+                            <img src={video} />
+                            <div className="social-media flex justify-between items-center gap-3">
+                                <a className='bg-red-300 rounded-full p-3' href="#"><FaFacebook className='text-2xl text-white' /></a>
+                                <a className='bg-red-300 rounded-full p-3' href="#"><FaPinterest className='text-2xl text-white' /></a>
+                                <a className='bg-red-300 rounded-full p-3' href="#"><AiFillInstagram className='text-2xl text-white' /></a>
+                                <a className='bg-red-300 rounded-full p-3' href="#"><FaYoutube className='text-2xl text-white' /></a>
+                            </div>
                         </div>
                         <div className="flex flex-col gap-3 tracking-widest items-center gap-3">
                             <p className='font-bold'>Location</p>
@@ -26,7 +28,11 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <img src={logo} className='w-[300px] h-[260px]' />
+                <div className='relative bg-white rounded-3xl'>
+                    <img src={logo} className='w-[300px] h-[260px]' />
+                    <div className="absolute w-40 h-40 rounded-2xl -left-20 -top-10  bg-blue-300"></div>
+
+                </div>
             </div>
 
 
