@@ -1,20 +1,28 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import logo from '../assets/images/bg.png'
 function Navbar() {
     return (
-        <header className='bg-white shadow flex justify-between items-center px-20 py-4 fixed w-full'>
+        <header className='bg-white shadow flex justify-between items-center px-20 h-32 fixed w-full z-10'>
             <div className="w-[120px]">
                 <img src={logo} alt="" />
             </div>
-            
+
             <nav className="flex space-x-5 items-center">
-                <Link className='text-lg hover:text-red-300 transition' to='/'>Home</Link>
-                <Link className='text-lg hover:text-red-300 transition' to='/about'>About</Link>
-                <Link className='text-lg hover:text-red-300 transition' to='/products'>Products</Link>
-                <Link className='text-lg  px-4 py-2 bg-red-300 text-white rounded-full hover:text-black hover:bg-gray-100 transition' to='/contact'>Contact</Link>
+                <NavLink className='text-lg hover:text-red-300 transition' to='/'>Home</NavLink>
+                <NavLink className='text-lg hover:text-red-300 transition' to='/about'>About</NavLink>
+                <NavLink className='text-lg hover:text-red-300 transition' to='/products'>Products</NavLink>
+                <NavLink
+                    to="/contact"
+                    className={({ isActive }) =>
+                        `text-lg px-4 py-2 rounded-full transition ${isActive ? 'bg-gray-100 text-black' : 'bg-red-300 text-white'
+                        } hover:bg-gray-100 hover:text-black`
+                    }
+                >
+                    Contact
+                </NavLink>
             </nav>
-        </header>
+        </header >
     )
 }
 
