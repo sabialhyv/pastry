@@ -13,7 +13,7 @@ function Footer() {
                     <p className='max-w-[700px] text-5xl tracking-[10px]'>we are here <span className='text-yellow-400'>to bake</span> happy you!</p>
                     <div className='flex justify-between  mt-10'>
                         <div className='flex flex-col items-center gap-3'>
-                            <p className='text-2xl'> Follow us</p>
+                            <p className='text-2xl px-16 py-4 bg-yellow-300 rounded-3xl'> Follow us</p>
                             <div className="social-media flex justify-between items-center gap-3">
                                 <a className='bg-red-300 rounded-full p-3' href="#"><FaFacebook className='text-2xl text-white' /></a>
                                 <a className='bg-red-300 rounded-full p-3' href="#"><FaPinterest className='text-2xl text-white' /></a>
