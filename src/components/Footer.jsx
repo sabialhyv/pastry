@@ -1,7 +1,9 @@
 import logo from '../assets/images/logo.png';
-import { FaFacebook, FaYoutube, FaPinterest } from "react-icons/fa";
+import { FaFacebook, FaYoutube, FaPinterest, FaPhoneAlt } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
-import video from '../assets/images/tk.gif'
+import { MdLocationOn } from "react-icons/md";
+
+
 
 function Footer() {
     return (
@@ -10,9 +12,8 @@ function Footer() {
                 <div className='flex flex-col'>
                     <p className='max-w-[700px] text-5xl tracking-[10px]'>we are here <span className='text-yellow-400'>to bake</span> happy you!</p>
                     <div className='flex justify-between  mt-10'>
-                        <div className='flex flex-col items-center justify-between'>
+                        <div className='flex flex-col items-center gap-3'>
                             <p className='text-2xl'> Follow us</p>
-                            <img src={video} />
                             <div className="social-media flex justify-between items-center gap-3">
                                 <a className='bg-red-300 rounded-full p-3' href="#"><FaFacebook className='text-2xl text-white' /></a>
                                 <a className='bg-red-300 rounded-full p-3' href="#"><FaPinterest className='text-2xl text-white' /></a>
@@ -20,10 +21,16 @@ function Footer() {
                                 <a className='bg-red-300 rounded-full p-3' href="#"><FaYoutube className='text-2xl text-white' /></a>
                             </div>
                         </div>
-                        <div className="flex flex-col gap-3 tracking-widest items-center gap-3">
-                            <p className='font-bold'>Location</p>
+                        <div className="flex flex-col gap-3 tracking-widest gap-3">
+                            <div className='flex items-center gap-3'>
+                                <MdLocationOn className='text-xl' />
+                                <p className='font-bold'>Location</p>
+                            </div>
                             <p>123 Main St, Anytown, USA</p>
-                            <p className='font-bold'>Contact Phone</p>
+                            <div className='flex items-center gap-3'>
+                                <FaPhoneAlt className='text-xl' />
+                                <p className='font-bold'>Contact Phone</p>
+                            </div>
                             <p>852 452 74 78</p>
                         </div>
                     </div>
