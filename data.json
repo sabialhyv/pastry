@@ -3,21 +3,21 @@
         "id": "1",
         "name": "Chocolate Cake",
         "price": 15,
-        "url": "choco",
+        "url": "chococake.webp",
         "description": "Delicious chocolate cake with a rich and nutty flavor"
     },
     {
         "id": "2",
         "name": "Vanilla Cake",
         "price": 12,
-        "url": "vanilla",
+        "url": "vanillacake.jpg",
         "description": "A delicious vanilla cake with a light and velvety flavor"
     },
     {
         "id": "3",
         "name": "Red Velvet Cake",
         "price": 18,
-        "url": "velvet",
+        "url": "redcake.jpg",
         "description": "A delicious red velvet cake with a rich and velvety flavor"
     }
 ]
