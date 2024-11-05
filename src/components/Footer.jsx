@@ -47,7 +47,7 @@ function Footer() {
 
 
 
-            <p className='text-center mt-4 text-white text-lg'> 2024 My Website. All rights reserved.</p>
+            <p className='text-center mt-4 text-black text-lg'> 2024 My Website. All rights reserved.</p>
         </footer>
     )
 }
