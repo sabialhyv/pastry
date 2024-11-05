@@ -16,6 +16,7 @@ function Navbar() {
             <nav className="flex space-x-5 items-center">
                 {isHomePage ? (
                     <>
+                        <ScrollLink className='text-lg hover:text-red-300 transition cursor-pointer' to='/' smooth={true} duration={500}>Home</ScrollLink>
                         <ScrollLink className='text-lg hover:text-red-300 transition cursor-pointer' to='about' smooth={true} duration={500}>About</ScrollLink>
                         <ScrollLink className='text-lg hover:text-red-300 transition cursor-pointer' to='products' smooth={true} duration={500}>Products</ScrollLink>
                         <ScrollLink className='text-lg hover:text-red-300 transition cursor-pointer' to='contact'>Contact</ScrollLink>

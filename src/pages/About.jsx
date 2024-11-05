@@ -9,7 +9,7 @@ import img6 from '../assets/images/6.jpeg'
 
 function About() {
   return (
-    <section className="about-section p-20 bg-gray-100">
+    <section className="about-section p-20 bg-gray-100 min-h-96">
       <h2 className="text-4xl mb-4">About Us</h2>
       <p>Learn more about our journey and passion for pastries.</p>
     </section>
