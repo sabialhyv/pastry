@@ -9,12 +9,9 @@ import img7 from '../assets/images/7.webp'
 import img8 from '../assets/images/8.webp'
 import img9 from '../assets/images/9.webp'
 
-
-
-
 function About() {
   return (
-    <section className="about-section p-20 bg-gray-100 min-h-96">
+    <section className="about-section p-20 min-h-96">
       <h2 className="text-4xl mb-4">About Us</h2>
       <p>Learn more about our journey and passion for pastries.</p>
     </section>
