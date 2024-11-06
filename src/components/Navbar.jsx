@@ -22,6 +22,7 @@ function Navbar() {
               smooth={true}
               duration={500}
               spy={true}
+              offset={-100} 
             >
               Home
             </ScrollLink>
@@ -32,6 +33,7 @@ function Navbar() {
               smooth={true}
               duration={500}
               spy={true}
+              offset={-100} 
             >
               About
             </ScrollLink>
@@ -42,6 +44,7 @@ function Navbar() {
               smooth={true}
               duration={500}
               spy={true}
+              offset={-100} 
             >
               Products
             </ScrollLink>
@@ -50,6 +53,7 @@ function Navbar() {
               activeClass="text-lg text-red-300"
               to="contact"
               spy={true}
+              offset={-100} 
             >
               Contact
             </ScrollLink>
