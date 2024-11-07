@@ -1,5 +1,6 @@
 import React from 'react'
 
+import shop from '../assets/images/shop.png'
 import img1 from '../assets/images/1.jpeg'
 import img2 from '../assets/images/2.jpeg'
 import img3 from '../assets/images/3.jpeg'
@@ -11,11 +12,15 @@ import img9 from '../assets/images/9.webp'
 
 function About() {
   return (
-    <section className="about-section p-20 min-h-96">
-      <h2 className="text-4xl mb-4">About Us</h2>
-      <p>Learn more about our journey and passion for pastries.</p>
-    </section>
+    <div className="about-section p-20 min-h-96">
+      <div>
+      <h2 className="text-4xl mb-4">Maison Fraise</h2>
+      <p>patisserie</p>
+      </div>
+      <p>WELCOME TO OUR PASTRY SHOP</p>
+      <img src={shop} alt="" />
+    </div>
   )
 }
 
-export default About
+export default About 
