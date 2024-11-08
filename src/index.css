@@ -7,6 +7,10 @@ body{
   background-color: #FDF3E1;
 }
 
+body h1{
+  font-family: "Paytone One", sans-serif;
+}
+
 .home {
   height: 700px;
   background-image: url('./assets/images/hm1.png');
@@ -20,6 +24,9 @@ body{
    text-shadow: #E86366 4px 1px 0px;
  }
 
+ .menu-text{
+  font-family: "Crimson Pro", serif;
+ }
 .active {
   @apply text-red-300;
 }
