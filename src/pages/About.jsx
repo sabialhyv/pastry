@@ -16,7 +16,7 @@ function About() {
     <div className="about-section p-20 min-h-96 w-[70%] m-auto">
       <div className="text-center">
         <h1 className="text-9xl mb-4">Maison Fraise</h1>
-        <p className="menu-text text-start italic text-4xl">pâtisserie</p>
+        <p className="menu-text text-start italic text-5xl ml-14">pâtisserie</p>
       </div>
       <div className=" menu-text flex items-end gap-20 justify-between">
         <div className="flex flex-col gap-10">
