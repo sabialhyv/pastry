@@ -12,10 +12,10 @@ body h1{
 }
 
 .home {
-  height: 700px;
+  height: 600px;
   background-image: url('./assets/images/hm1.png');
   background-size: cover;
-  background-position: center;
+  background-position: 20% 70%;
 }
 
 
