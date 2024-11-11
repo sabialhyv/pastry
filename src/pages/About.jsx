@@ -2,7 +2,6 @@ import React from "react";
 
 import shop from "../assets/images/shop.png";
 import { motion } from "framer-motion";
-import { useInView } from 'react-intersection-observer';
 
 import img1 from "../assets/images/1.jpeg";
 import img2 from "../assets/images/2.jpeg";
@@ -15,17 +14,18 @@ import img9 from "../assets/images/9.webp";
 import { Link } from "react-router-dom";
 
 function About() {
-  const { ref, inView } = useInView({
-    triggerOnce: false,
-    threshold: 0.1,
-  });
   return (
     <div className="about-section p-20 min-h-96 w-[70%] m-auto">
       <div className="text-center">
         <h1 className="text-9xl mb-4">Maison Fraise</h1>
         <motion.p
-           className={`uppercase text-lg ${inView ? 'animate-slideIn' : ''}`}
-           ref={ref}
+          className="menu-text text-start italic text-5xl ml-14"
+          initial={{ x: -200 }}
+          animate={{ x: 0 }}
+          transition={{
+            duration: 2,
+            loop: Infinity,
+          }}
         >
           pâtisserie
         </motion.p>

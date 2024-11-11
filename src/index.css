@@ -24,8 +24,13 @@ body h1{
    text-shadow: #E86366 4px 1px 0px;
  }
 
- .menu-text{
+ .main-text{
+  font-family: "Crimson Pro", sans-serif;
+ }
+
+ .home p{
   font-family: "Crimson Pro", serif;
+  font-weight: 600;
  }
 .active {
   @apply text-red-300;
