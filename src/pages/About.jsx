@@ -12,10 +12,10 @@ function About() {
       <div className="text-center">
         <h1 className="text-9xl mb-4">Maison Fraise</h1>
         <motion.p
-          className="uppercase text-lg"
+          className="menu-text text-start italic  text-5xl ml-14"
           ref={ref}
-          initial={{ opacity: 0, x: -50 }}
-          animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
+          initial={{ opacity: 0, x: -150 }}
+          animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -150 }}
           transition={{ duration: 1 }}
         >
           pâtisserie
