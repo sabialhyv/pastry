@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <header className="bg-white shadow flex justify-between items-center px-20 h-32 fixed w-full z-10">
       <div className="w-[120px]">
-        <img src={logo} alt="Logo" />
+       <a href="/"> <img src={logo} alt="Logo" /></a> 
       </div>
 
       <nav className="flex space-x-5 items-center">
