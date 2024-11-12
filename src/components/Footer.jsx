@@ -21,7 +21,7 @@ function Footer() {
                                 <a className='bg-red-300 rounded-full p-3' href="#"><FaYoutube className='text-2xl text-white' /></a>
                             </div>
                         </div>
-                        <div className="flex flex-col gap-3 tracking-widest gap-3">
+                        <div className="flex flex-col gap-3 tracking-widest">
                             <div className='flex items-center gap-3'>
                                 <MdLocationOn className='text-xl' />
                                 <p className='font-bold'>Location</p>
@@ -39,14 +39,10 @@ function Footer() {
                     <div className="-top-10 -left-14 absolute w-40 h-40 rounded-2xl   bg-blue-300"></div>
                     <div className="-bottom-20 -right-20 absolute w-40 h-40 rounded-2xl   bg-yellow-300"></div>
                     <div className='top-5 absolute w-80 h-64 bg-white rounded-3xl'>
-                        <img src={logo} className='w-full h-full' />
+                       <a href="/"><img src={logo} className='w-full h-full' /> </a> 
                     </div>
                 </div>
             </div>
-
-
-
-
             <p className='text-center mt-4 text-black text-lg'> 2024 My Website. All rights reserved.</p>
         </footer>
     )
