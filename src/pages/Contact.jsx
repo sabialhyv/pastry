@@ -41,6 +41,7 @@ function Contact() {
           type="text"
           className="h-8 bg-transparent outline-none  border-b-2 mt-2 border-yellow-500"
         />
+        <button className="menu-text bg-yellow-600 w-24 text-2xl rounded-md text-white p-2 m-auto" type="submit">Send</button>
       </form>
       <img src={bread2} className="w-44 absolute top-[80%] left-[100%]" alt="" />
     </div>
