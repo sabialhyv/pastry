@@ -35,3 +35,7 @@ body h1{
 .active {
   @apply text-red-300;
 }
+
+footer{
+  font-family: "Crimson Pro", serif;
+}
