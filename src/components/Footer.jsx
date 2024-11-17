@@ -5,7 +5,7 @@ import { MdLocationOn } from "react-icons/md";
 
 function Footer() {
   return (
-    <footer className="w-[85%] h-[400px] px-20 py-14 flex flex-col gap-7 justify-between bg-[#798645]  mx-[15%] rounded-tl-[85px]">
+    <footer className="w-[85%] h-[420px] px-20 py-14 flex flex-col gap-7 justify-between bg-[#798645]  mx-[15%] rounded-tl-[85px]">
       <div className="flex w-full justify-between items-center">
         <div className="flex flex-col">
           <p className="max-w-[700px] text-5xl tracking-[10px]">
@@ -13,7 +13,7 @@ function Footer() {
             you!
           </p>
           <div className="flex justify-between  mt-10">
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-7">
               <p className="text-2xl px-16 py-4 bg-[#F2EED7] rounded-3xl">
                 Follow us
               </p>
@@ -35,14 +35,14 @@ function Footer() {
             <div className="flex flex-col gap-3 tracking-widest">
               <div className="flex items-center gap-3">
                 <MdLocationOn className="text-xl" />
-                <p className="font-bold">Location</p>
+                <p className="font-bold text-xl">Location</p>
               </div>
-              <p>123 Main St, Anytown, USA</p>
+              <p className="text-lg">123 Main St, Anytown, USA</p>
               <div className="flex items-center gap-3">
                 <FaPhoneAlt className="text-xl" />
-                <p className="font-bold">Contact Phone</p>
+                <p className="font-bold text-xl">Contact Phone</p>
               </div>
-              <p>852 452 74 78</p>
+              <p className="text-lg">852 452 74 78</p>
             </div>
           </div>
         </div>
