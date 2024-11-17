@@ -48,7 +48,7 @@ function Footer() {
         </div>
         <div className="w-[300px] h-[260px] relative">
           {/* <div className="-top-10 -left-14 absolute w-40 h-40 rounded-2xl bg-blue-300"></div> */}
-          {/* <div className="-bottom-20 -right-20 absolute w-40 h-40 rounded-2xl bg-yellow-300"></div> */}
+          {/* <div className="-bottom-20 -right-20 absolute w-40 h-40 rounded-2xl bg-yellow-300"></div> */ }
           <div className="top-5 absolute w-80 h-64rounded-3xl">
             <a href="/">
               <img src={logo} className="w-full h-full" />
