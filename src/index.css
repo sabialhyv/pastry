@@ -39,3 +39,7 @@ body h1{
 footer{
   font-family: "Crimson Pro", serif;
 }
+
+.menu{
+  background-image: url('./assets/images/blueberry.avif');
+}
