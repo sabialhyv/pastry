@@ -52,6 +52,8 @@ function Navbar() {
               className="text-gray-600 text-lg hover:text-red-300 transition cursor-pointer"
               activeClass="text-lg text-red-300"
               to="contact"
+              smooth={true}
+              duration={500}
               spy={true}
               offset={-100} 
             >

@@ -21,15 +21,9 @@ function Menu() {
         </p>
       </div>
       <MenuProduct />
-      <motion.p
-        className="menu-text text-8xl text-yellow-400 mt-14 p-5"
-        ref={ref}
-        initial={{ x: -80 }}
-        animate={isInView ? { x: 0 } : { x: -80 }}
-        transition={{ duration: 1 }}
-      >
+      <p className="menu-text text-8xl text-yellow-400 mt-14 p-5">
         Special edition
-      </motion.p>
+      </p>
       <div className="w-full h-[400px] bg-center bg-fixed menu-text bg-cover menu ">
         <div className="card-container w-[80%] m-auto flex flex-wrap items-center justify-center ">
           <motion.div
