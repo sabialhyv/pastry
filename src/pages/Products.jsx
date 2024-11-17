@@ -13,7 +13,7 @@ function Products() {
       .catch(error => console.error('Error fetching JSON:', error));
   }, []);
   return (
-    <section className="products-section p-20 bg-white">
+    <section className="products-section p-20">
       <h1 className="text-center font-bold text-6xl text-red-300 my-10">Our Products</h1>
       <div className="flex flex-wrap justify-center">
         {cakes.map(cake => (
