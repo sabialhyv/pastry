@@ -24,8 +24,8 @@ function Menu() {
       <motion.p
         className="menu-text text-8xl text-yellow-400 mt-14 p-5"
         ref={ref}
-        initial={{  x: -80 }}
-        animate={isInView ? {  x: 0 } : { x: -80 }}
+        initial={{ x: -80 }}
+        animate={isInView ? { x: 0 } : { x: -80 }}
         transition={{ duration: 1 }}
       >
         Special edition
@@ -34,8 +34,8 @@ function Menu() {
         <div className="card-container w-[80%] m-auto flex flex-wrap items-center justify-center ">
           <motion.div
             ref={ref}
-            initial={{  x: -150 }}
-            animate={isInView ? { x: 0 } : {  x: -150 }}
+            initial={{ x: -150 }}
+            animate={isInView ? { x: 0 } : { x: -150 }}
             transition={{ duration: 1 }}
             className="bg-[#FEFAE0] shadow-lg hover:shadow-xl transition-shadow overflow-hidden card w-[48%] h-44 m-[0.5%] p-3 flex items-center justify-between"
           >
@@ -54,7 +54,7 @@ function Menu() {
           <motion.div
             ref={ref}
             initial={{ x: -150 }}
-            animate={isInView ? {  x: 0 } : {  x: -150 }}
+            animate={isInView ? { x: 0 } : { x: -150 }}
             transition={{ duration: 1 }}
             className="bg-[#FEFAE0] shadow-lg hover:shadow-xl transition-shadow overflow-hidden card w-[48%] h-44 m-[0.5%] p-3 flex items-center justify-between"
           >
@@ -73,7 +73,7 @@ function Menu() {
           <motion.div
             ref={ref}
             initial={{ x: 150 }}
-            animate={isInView ? {  x: 0 } : {  x: 150 }}
+            animate={isInView ? { x: 0 } : { x: 150 }}
             transition={{ duration: 1 }}
             className="bg-[#FEFAE0] shadow-lg hover:shadow-xl transition-shadow overflow-hidden card w-[48%] h-44 m-[0.5%] p-3 flex items-center justify-between"
           >
@@ -91,8 +91,8 @@ function Menu() {
 
           <motion.div
             ref={ref}
-            initial={{  x: 150 }}
-            animate={isInView ? { x: 0 } : {  x: 150 }}
+            initial={{ x: 150 }}
+            animate={isInView ? { x: 0 } : { x: 150 }}
             transition={{ duration: 1 }}
             className="bg-[#FEFAE0] shadow-lg hover:shadow-xl transition-shadow overflow-hidden card w-[48%] h-44 m-[0.5%] p-3 flex items-center justify-between"
           >
