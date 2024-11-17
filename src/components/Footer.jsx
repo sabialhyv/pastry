@@ -5,7 +5,7 @@ import { MdLocationOn } from "react-icons/md";
 
 function Footer() {
   return (
-    <footer className="py-14 px-20  bg-[#798645] w-[85%] mx-[15%] rounded-tl-[85px]">
+    <footer className="w-[85%] h-[400px] px-20 py-14 flex flex-col gap-7 justify-between bg-[#798645]  mx-[15%] rounded-tl-[85px]">
       <div className="flex w-full justify-between items-center">
         <div className="flex flex-col">
           <p className="max-w-[700px] text-5xl tracking-[10px]">
@@ -52,6 +52,7 @@ function Footer() {
           </a>
         </div> */}
       </div>
+
       <p className="text-center mt-4 text-black text-lg">
         2024 My Website. All rights reserved.
       </p>
