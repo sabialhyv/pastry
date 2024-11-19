@@ -13,9 +13,9 @@ function Menu() {
   return (
     <div className="mb-32">
       <div className="menu-page p-14">
-        <h2 className="mb-4 text-center font-bold text-6xl text-red-300">
+        <h1 className="mb-4 text-center font-bold text-6xl text-red-300">
           Our Menu
-        </h2>
+        </h1>
         <p className="text-center text-yellow-300 text-2xl italic">
           Explore our delightful selection of pastries and desserts.
         </p>
