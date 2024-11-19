@@ -104,7 +104,40 @@ function Menu() {
         </div>
       </div>
 
-        
+      <div className="p-11">
+          <div className="w-[60%] h-1 bg-yellow-500 rounded-md"></div>
+          <p className="pt-3 menu-text text-7xl tracking-widest">OUR MENU</p>
+          <h1 className="text-3xl tracking-widest">Delicious Cookies From The Chef</h1>
+        <div className="flex flex-wrap w-[90%] m-auto justify-between pt-10">
+          <div className="w-[47%] flex flex-col gap-4 m-[1%]">
+            <p className="menu-text font-bold text-lg tracking-wider">Cookies Cream / <span className="text-yellow-500">$11</span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam provident doloremque nemo voluptas totam ipsam eum rem dolorem unde!</p>
+          </div>
+          <div className="w-[47%] flex flex-col gap-4 m-[1%]">
+            <p className="menu-text font-bold text-lg tracking-wider">Cookies Cream / <span className="text-yellow-500">$11</span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam provident doloremque nemo voluptas totam ipsam eum rem dolorem unde!</p>
+          </div>
+          <div className="w-[47%] flex flex-col gap-4 m-[1%]">
+            <p className="menu-text font-bold text-lg tracking-wider">Cookies Cream / <span className="text-yellow-500">$11</span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam provident doloremque nemo voluptas totam ipsam eum rem dolorem unde!</p>
+          </div>
+          <div className="w-[47%] flex flex-col gap-4 m-[1%]">
+            <p className="menu-text font-bold text-lg tracking-wider">Cookies Cream / <span className="text-yellow-500">$11</span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam provident doloremque nemo voluptas totam ipsam eum rem dolorem unde!</p>
+          </div>
+          <div className="w-[47%] flex flex-col gap-4 m-[1%]">
+            <p className="menu-text font-bold text-lg tracking-wider">Cookies Cream / <span className="text-yellow-500">$11</span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam provident doloremque nemo voluptas totam ipsam eum rem dolorem unde!</p>
+          </div>
+          <div className="w-[47%] flex flex-col gap-4 m-[1%]">
+            <p className="menu-text font-bold text-lg tracking-wider">Cookies Cream / <span className="text-yellow-500">$11</span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam provident doloremque nemo voluptas totam ipsam eum rem dolorem unde!</p>
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
   );
 }
