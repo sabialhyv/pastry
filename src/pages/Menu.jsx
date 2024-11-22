@@ -138,6 +138,10 @@ function Menu() {
 
       </div>
 
+      <div className="menu-section w-full h-96 bg-cover bg-center">
+
+      </div>
+
     </div>
   );
 }
