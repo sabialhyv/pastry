@@ -31,7 +31,7 @@ function Menu() {
             initial={{ x: -150 }}
             animate={isInView ? { x: 0 } : { x: -150 }}
             transition={{ duration: 1 }}
-            className="bg-[#FEFAE0] shadow-lg hover:shadow-xl transition-shadow overflow-hidden card w-[48%] h-44 m-[0.5%] p-3 flex items-center justify-between"
+            className="bg-[#FEFAE0] rounded-md shadow-lg hover:shadow-xl transition-shadow overflow-hidden card w-[48%] h-44 m-[0.5%] p-3 flex items-center justify-between"
           >
             <div className="w-[70%] flex flex-col gap-2 ">
               <p className="text-xl tracking-widest">MINI APPLE TART</p>
@@ -50,7 +50,7 @@ function Menu() {
             initial={{ x: -150 }}
             animate={isInView ? { x: 0 } : { x: -150 }}
             transition={{ duration: 1 }}
-            className="bg-[#FEFAE0] shadow-lg hover:shadow-xl transition-shadow overflow-hidden card w-[48%] h-44 m-[0.5%] p-3 flex items-center justify-between"
+            className="bg-[#FEFAE0] rounded-md shadow-lg hover:shadow-xl transition-shadow overflow-hidden card w-[48%] h-44 m-[0.5%] p-3 flex items-center justify-between"
           >
             <div className="w-[70%] flex flex-col gap-2 ">
               <p className="text-xl tracking-widest">MINI CHOCO TART</p>
@@ -69,7 +69,7 @@ function Menu() {
             initial={{ x: 150 }}
             animate={isInView ? { x: 0 } : { x: 150 }}
             transition={{ duration: 1 }}
-            className="bg-[#FEFAE0] shadow-lg hover:shadow-xl transition-shadow overflow-hidden card w-[48%] h-44 m-[0.5%] p-3 flex items-center justify-between"
+            className="bg-[#FEFAE0] rounded-md shadow-lg hover:shadow-xl transition-shadow overflow-hidden card w-[48%] h-44 m-[0.5%] p-3 flex items-center justify-between"
           >
             <div className="w-[70%] flex flex-col gap-2 ">
               <p className="text-xl tracking-widest">MINI MANGO TART</p>
@@ -88,7 +88,7 @@ function Menu() {
             initial={{ x: 150 }}
             animate={isInView ? { x: 0 } : { x: 150 }}
             transition={{ duration: 1 }}
-            className="bg-[#FEFAE0] shadow-lg hover:shadow-xl transition-shadow overflow-hidden card w-[48%] h-44 m-[0.5%] p-3 flex items-center justify-between"
+            className="bg-[#FEFAE0] rounded-md shadow-lg hover:shadow-xl transition-shadow overflow-hidden card w-[48%] h-44 m-[0.5%] p-3 flex items-center justify-between"
           >
             <div className="w-[70%] flex flex-col gap-2 ">
               <p className="text-xl tracking-widest">MINI STRAWBERRY TART</p>
